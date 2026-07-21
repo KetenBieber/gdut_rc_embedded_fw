@@ -85,6 +85,9 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     ${CMAKE_SOURCE_DIR}/Module/xbox
     ${CMAKE_SOURCE_DIR}/Module/pc
     ${CMAKE_SOURCE_DIR}/Module/watchdog
+    ${CMAKE_SOURCE_DIR}/Module/velocity_planner
+    ${CMAKE_SOURCE_DIR}/Module/chassis
+    ${CMAKE_SOURCE_DIR}/Module/math_tools
 
     # Add user defined include paths
 )
